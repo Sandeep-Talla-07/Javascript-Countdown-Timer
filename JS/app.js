@@ -43,6 +43,7 @@ const render = (time) => {
 };
 
 const showMessage = () => {
+  //   message.innerHTML = "Happy new year";
   message.innerHTML = `🎉 Happy New Year ${getNewYear().getFullYear()}!`;
   app.innerHTML = "";
   heading.style.display = "none";
